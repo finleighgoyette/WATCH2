@@ -1,34 +1,39 @@
-/*
-font-family: 'ZCOOL QingKe HuangYou', cursive;
-font-family: 'Rajdhani', sans-serif; */
+
+/* font-family: 'ZCOOL QingKe HuangYou', cursive;
+ font-family: 'Rajdhani', sans-serif;  */
 
 body {
-  background-color: black;
+  background-color: lavender;
 }
-.story {
-  background-color:rgb(106, 107, 102);
-  border:2px solid #000;
-  padding: 1em;
-  margin: 1em 0;
-  font-style: 'Rajdhani', sans-serif;
-}
-.headline {
-  display: grid;
-  grid-gap: 1em;
-}
-
 h1 {
-  color: white;
-  font: 'ZCOOL QingKe HuangYou', cursive;
+  color: grey;
+  text-align: center;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 50px;
+  margin-top: 60px;
 }
 
-@media screen and (min-width: 40em) {
-  .headline {
-    grid-template-columns: 1fr 1fr;
-  }
+.emojichoices {
+  font-size: 100px;
+  padding: 0;
+  text-align: center;
 }
-@media screen and (min-width: 60em) {
-  .headline {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+
+.emoji{
+  display: inline-block;
+  margin: 25px;
+}
+button {
+  background-color: lavender;
+  border: none;
+  text-align: center;
+  font-size: 100px;
+  border-radius: 50%;
+  border-color: lavender;
+}
+.main {
+  text-align: center;
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 100px;
 }
