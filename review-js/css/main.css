@@ -30,6 +30,11 @@ button {
   font-size: 100px;
   border-radius: 50%;
   border-color: lavender;
+  outline: none;
+  cursor: pointer;
+}
+button:active {
+  background-color: white;
 }
 .main {
   text-align: center;
