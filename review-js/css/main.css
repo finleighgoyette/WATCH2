@@ -28,13 +28,13 @@ button {
   border: none;
   text-align: center;
   font-size: 100px;
-  border-radius: 50%;
+  border-radius: 45%;
   border-color: lavender;
   outline: none;
   cursor: pointer;
 }
 button:active {
-  background-color: white;
+  background-color: lightblue;
 }
 .main {
   text-align: center;
